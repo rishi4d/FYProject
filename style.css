@@ -1,3 +1,116 @@
+/* MEDIA QUERIES */
+
+@media(max-width: 768px){
+
+    nav{
+        padding-left: 2% !important;
+        padding-right: 2% !important;
+    }
+
+    #searcharea{
+        font-size: 15px;
+        width: 200px;
+    }
+
+    #searchbox > input{
+        width: 150px;
+    }
+
+    #searchbox > button{
+        font-size: 15px;
+        width: 50px;
+    }
+}
+
+@media(min-width: 768px){
+
+    nav{
+        padding-left: 5% !important;
+        padding-right: 5% !important;
+    }
+
+    #searcharea{
+        font-size: 15px;
+        width: 250px;
+    }
+
+    #searchbox > input{
+        width: 200px;
+    }
+
+    #searchbox > button{
+        font-size: 15px;
+        width: 50px;
+    }
+}
+
+@media(min-width: 900px){
+
+    nav{
+        padding-left: 8% !important;
+        padding-right: 8% !important;
+    }
+
+    #searcharea{
+        font-size: 15px;
+        width: 300px;
+    }
+
+    #searchbox > input{
+        width: 250px;
+    }
+
+    #searchbox > button{
+        font-size: 15px;
+        width: 50px;
+    }
+}
+
+@media(min-width: 1366px){
+
+    nav{
+        padding-left: 15% !important;
+        padding-right: 15% !important;
+    }
+
+    #searcharea{
+        font-size: 15px;
+        width: 500px;
+    }
+
+    #searchbox > input{
+        width: 450px;
+    }
+
+    #searchbox > button{
+        font-size: 15px;
+        width: 50px;
+    }
+}
+
+@media(min-width: 1600px){
+
+    nav{
+        padding-left: 15% !important;
+        padding-right: 15% !important;
+    }
+
+    #searcharea{
+        font-size: 16px;
+        width: 600px;
+    }
+
+    #searchbox > input{
+        width: 550px;
+    }
+
+    #searchbox > button{
+        font-size: 16px;
+        width: 50px;
+    }
+}
+
+
 body, html{
     background-color: black;
     font-family: "Roboto", sans-serif;
@@ -5,26 +118,32 @@ body, html{
 
 nav{
     background-color: rgb(30, 33, 36);
+    font-family: "Poppins", sans-serif;
+}
+
+#leftitems{
+    padding-left: 4%;
+}
+
+#leftitems > ul > li{
+    padding: 5px;
+    padding-top: inherit;
+    padding-bottom: inherit;
 }
 
 /* SEARCH BOX */
-
-#searcharea{
-    width: 30%;
-}
 
 #searchbox{
     position: relative;
 }
 
 #searchbox > input{
-    font-size: 15px;
     background-color: rgb(20, 21, 24);
-    width: 500px;
     border: 1px solid rgb(50, 53, 59);
     border-right: 0px;
     border-radius: 20px 0 0 20px;
     padding: 10px;
+    padding-left: 30px;
 }
 
 #searchbox > input:focus{
@@ -33,13 +152,16 @@ nav{
 }
 
 #searchbox > button{
-    font-size: 15px;
     background-color: rgb(20, 21, 24);
     color: rgb(166, 166, 175);
     padding: 10px;
-    width: 50px;
     border: 1px solid rgb(50, 53, 59);
     border-left: 0px;
     position: absolute;
     border-radius: 0 20px 20px 0;
+}
+
+#searchbox > button:focus{
+    outline: none;
+    color: rgb(166, 166, 175);
 }
