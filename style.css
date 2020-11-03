@@ -165,3 +165,23 @@ nav{
     outline: none;
     color: rgb(166, 166, 175);
 }
+
+/* CAROUSEL */
+
+.carousel{
+    margin-top: 2rem;
+    width: 50%;
+}
+
+.carousel-inner{
+    height: 40vh;
+    border-radius: 20px;
+}
+
+#slimg{
+    height: 40vh;
+    width: 100%;
+    object-fit: fill;
+}
+
+/* SECTIONS */
