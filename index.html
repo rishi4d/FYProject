@@ -36,7 +36,7 @@
 
         <!-- NAVIGATION BAR -->
         <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
-                <a class="navbar-brand" href="index.html"><i class="fab fa-deezer" style="color: red; font-size: 2em;"></i></a>
+                <a class="navbar-brand" href="index.html"><i class="fab fa-deezer" style="color: rgb(230, 0, 0); font-size: 2em;"></i></a>
                 <div class="mr-auto" id="leftitems">
                     <ul class="navbar-nav">
                         <li class="nav-item">
@@ -95,26 +95,101 @@
         </div>
 
         <!-- SECTION -->
-        <div class="container-fluid">
-            <div class="row">
-                <div id="trending" class="col-12 col-sm-12">
-                    <h2>Trending </h2>
+        <div class="container-fluid" id="sections">
+            <div class="row mx-auto">
+                <div id="trends" class="col-12 col-sm-12 child">
+                    <h4>Trending<span id="sectionspan"><a href="">View All</a></span></h4>
+                    <div class="carousel slide carousel-multi-item" data-ride="carousel" id="section_carousel">
+                        <div class="row">
+                            <div class="col-12 col-sm-12">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="col-2 col-sm-2">
+                                            <div class="card">
+                                                <img id="secimg" src="img/127369.jpg">
+                                                <div class="card-body">
+        
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="col-2 col-sm-2">
+                                            <div class="card">
+                                                <img id="secimg" src="img/86703.jpg">
+                                                <div class="card-body">
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="col-2 col-sm-2">
+                                            <div class="card">
+                                                <img id="secimg" src="img/86737.jpg">
+                                                <div class="card-body">
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="col-2 col-sm-2">
+                                            <div class="card">
+                                                <img id="secimg" src="img/86759.jpg">
+                                                <div class="card-body">
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="col-2 col-sm-2">
+                                            <div class="card">
+                                                <img id="secimg" src="img/86703.jpg">
+                                                <div class="card-body">
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="col-2 col-sm-2">
+                                            <div class="card">
+                                                <img id="secimg" src="img/127369.jpg">
+                                                <div class="card-body">
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#section_carousel" data-slide="prev">
+                                    <span class="carousel-control-prev-icon"></span>
+                                </a>
+                    
+                                <a class="carousel-control-next" href="#section_carousel" data-slide="next">
+                                    <span class="carousel-control-next-icon"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
-                <div id="secondsection" class="col-12 col-sm-12">
-                    <h2>Top Charts</h2>
+                <div id="charts" class="col-12 col-sm-12 child">
+                    <h4>Top Charts<span id="sectionspan"><a href="">View All</a></span></h4>
                 </div>
 
-                <div id="secondsection" class="col-12 col-sm-12">
-                    <h2>New Releases</h2>
+                <div id="releases" class="col-12 col-sm-12 child">
+                    <h4>New Releases<span id="sectionspan"><a href="">View All</a></span></h4>
                 </div>   
  
-                <div id="secondsection" class="col-12 col-sm-12">
-                    <h2>Featured Artists</h2>
+                <div id="artists" class="col-12 col-sm-12 child">
+                    <h4>Featured Artists<span id="sectionspan"><a href="">View All</a></span></h4>
                 </div>        
             </div>
         </div>
-
+        <script src="app.js"></script>
     </body>
 
 </html>

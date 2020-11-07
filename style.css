@@ -168,20 +168,61 @@ nav{
 
 /* CAROUSEL */
 
-.carousel{
-    margin-top: 2rem;
-    width: 50%;
+#slides{
+    margin-top: 3rem;
+    width: 80%;
 }
 
-.carousel-inner{
-    height: 40vh;
-    border-radius: 20px;
+#slides > .carousel-inner{
+    height: 45vh;
+    border-radius: 30px;
 }
 
 #slimg{
-    height: 40vh;
+    height: 45vh;
     width: 100%;
     object-fit: fill;
 }
 
 /* SECTIONS */
+
+#sections{
+    margin-top: 3rem;
+    font-family: "Poppins", sans-serif;
+    color: rgb(160, 160, 160);
+}
+
+#sections > .row{
+    width: 80%;
+}
+
+#sections > .row > .child{
+    width: 100%;
+    vertical-align: middle;
+}
+
+#sections > .row > .child > h4{
+    font-size: 25px;
+}
+
+#sectionspan{
+    font-size: 14px;
+    float: right;
+    line-height: 25px;
+    vertical-align: middle;
+}
+
+#sectionspan > a{
+    color: rgb(255, 66, 66);
+}
+
+#sectionspan > a:hover{
+    color: rgb(255, 169, 169);
+    text-decoration: none;
+}
+
+#secimg{
+    
+    width: 100%;
+    object-fit: fill;
+}
