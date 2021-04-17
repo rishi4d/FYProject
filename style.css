@@ -199,6 +199,7 @@ nav{
 #sections > .row > .child{
     width: 100%;
     vertical-align: middle;
+    padding: 0 0 3rem 0;
 }
 
 #sections > .row > .child > h4{
@@ -221,8 +222,29 @@ nav{
     text-decoration: none;
 }
 
+.card{
+    height: 100%;
+    border: rgb(40, 40, 65);
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: rgb(40, 40, 65);
+}
+
 #secimg{ 
     width: 100%;
-    object-fit: fill;
+    height: 100%;
+    object-fit: cover;
+    border: rgb(40, 40, 65);
+    border-radius: 15px;
+}
+
+.card-body{
+    height: auto;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.card-body > p{
+    transform: translate(10%, 50%);
 }
 
