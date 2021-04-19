@@ -208,8 +208,8 @@ nav{
     width: 98%;
 }
 
-.child > .row{
-    padding-top: 10px;
+.child > .row > .col-sm-4{
+    padding: 12px;
 }
 
 #sectionspan{
