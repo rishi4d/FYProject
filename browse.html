@@ -31,19 +31,19 @@
     </head>
 
     <body>
-
+        <!-- NAVIGATION BAR -->
         <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
             <a class="navbar-brand" href="index.html"><i class="fab fa-deezer" style="color: rgb(230, 0, 0); font-size: 2em;"></i></a>
             <div class="mr-auto" id="leftitems">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a style="color: ;" class="nav-link" href="index.html">Home</a>
+                        <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a  style="color: rgb(190, 190, 190); font-weight: bold;" class="nav-link" href="browse.html">Browse</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">My Music</a>
+                        <a class="nav-link" href="mymusic.html">My Music</a>
                     </li>
                 </ul>
             </div>
@@ -60,12 +60,28 @@
             <div class="ml-auto">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Login / Signup</a>
+                        <a class="nav-link" onclick="document.getElementById('sign').style.display='inherit'">Login / Signup</a>
                     </li>
                 </ul>
             </div>
         </nav>
 
+        <!-- MODAL -->
+        <div class="container-fluid modal text-center" id="sign">
+            <form class="modal-inner" method="POST">
+                <div class="container-fluid form-inner">
+                    <p id="top">Login/Sign Up</p>
+                    <input class="box" type="text" placeholder="Username" name="uname" required>
+                    <input class="box" type="password" placeholder="Password" name="psw" required>
+                        
+                    <label><input class="my-auto" type="checkbox" checked="checked" name="remember">Remember me</label>
+                    <button type="submit">continue</button>
+                    <p class="psw"><a href="#">Forgot password?</a></p>
+                </div>
+            </form>
+        </div>
+
+        <!-- SECTIONS -->
         <div class="container-fluid" id="sections">
             <div class="row mx-auto">
                 <div id="trends" class="col-12 col-sm-12 child">
@@ -528,14 +544,14 @@
         </div>
 
         <hr>
-
+        <!-- FOOTER -->
         <div class="container-fluid footer">
             <p id="brandfooter"><i class="fab fa-deezer" style="color: rgb(230, 0, 0); font-size: 2.3em;"></i><b>&emsp;Rhythm</b><span>&#8482</span></p>
             <p><b>Rhythm</b> is single-stop solution for all your musical needs. Browse through hundreds of songs, movies, albums, artists, genres, podcasts and enjoy your favourite music online for free &ensp;<b>>></b></p>
             <p id="footerending"><b>Rhythm</b>, Copyright&#169 2020<span style="float: right;"><b>Made in India</b></span></p>
         </div>
 
-
+        <script src="app.js"></script>
     </body>
 
 </html>

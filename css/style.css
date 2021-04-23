@@ -20,6 +20,11 @@
         font-size: 15px;
         width: 50px;
     }
+
+    .modal-inner{
+        height: 80%;
+        width: 70%;
+    }
 }
 
 @media(min-width: 768px){
@@ -41,6 +46,11 @@
     #searchbox > button{
         font-size: 15px;
         width: 50px;
+    }
+
+    .modal-inner{
+        height: 80%;
+        width: 60%;
     }
 }
 
@@ -64,6 +74,11 @@
         font-size: 15px;
         width: 50px;
     }
+
+    .modal-inner{
+        height: 80%;
+        width: 60%;
+    }
 }
 
 @media(min-width: 1366px){
@@ -86,6 +101,11 @@
         font-size: 15px;
         width: 50px;
     }
+
+    .modal-inner{
+        height: 65%;
+        width: 30%;
+    }
 }
 
 @media(min-width: 1600px){
@@ -107,6 +127,11 @@
     #searchbox > button{
         font-size: 16px;
         width: 50px;
+    }
+
+    .modal-inner{
+        height: 60%;
+        width: 25%;
     }
 }
 
@@ -166,6 +191,111 @@ nav{
     color: rgb(166, 166, 175);
 }
 
+/* LOG-IN FORM */
+
+#sign{
+    display: none;
+}
+
+.modal{
+    font-family: "Poppins", sans-serif;
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.2); /* Black w/ opacity */
+    backdrop-filter: blur(18px);
+}
+
+.modal-inner{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 40px;
+    background-color: rgb(30, 33, 36);
+    height: min-content;
+}
+
+.form-inner{
+    height: 100%;
+    width: 100%;
+}
+
+.form-inner > #top{
+    padding-top: 15%;
+    color: rgb(190, 190, 190);
+    font-size: 28px;
+    padding-bottom: 5px;
+}
+
+.form-inner > input{
+    font-size: 20px;
+    margin: 15px;
+    padding: 15px;
+    padding-left: 30px;
+    border-radius: 50px;
+    background-color: rgb(30, 33, 36);
+    border: 1px solid rgb(50, 53, 59);
+}
+
+.form-inner > input:focus{
+    outline: none;
+    color: rgb(170, 170, 179);
+}
+
+.form-inner > label{
+    width: 80%;
+    text-align: left;
+    margin: 15px;
+    font-size: 18px;
+    color: rgb(158, 158, 160);
+    height: auto;
+}
+
+.form-inner > label > input{
+    border-radius: 50%;
+    margin-right: 10px;
+    height: 18px;
+    width: 18px;
+}
+
+.form-inner > button{
+    width: 80%;
+    font-size: 20px;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 50px;
+    color: rgb(190, 190, 190);
+    background-color: rgb(133, 20, 20);
+    border: 1px solid rgb(117, 0, 0);
+}
+
+.form-inner > button:focus{
+    outline: none;
+}
+
+.form-inner > .psw{
+    padding-top: 3%;
+    font-size: 16px;
+    padding-bottom: 13%;
+}
+
+.form-inner > .psw >a:hover{
+    text-decoration: none;
+    color: dodgerblue;
+    font-weight: bold;
+}
+
+.box{
+    width: 80%;
+}
+
 /* CAROUSEL */
 
 #slides{
@@ -203,9 +333,9 @@ nav{
 }
 
 #sections > .row > .child > h4{
+    transform: translateX(0.5%);
     font-size: 25px;
-    transform: translateX(1%);
-    width: 98%;
+    width: 99%;
 }
 
 .child > .row > .col-sm-4{
