@@ -281,16 +281,31 @@ nav{
     outline: none;
 }
 
-.form-inner > .psw{
+.form-inner > .reg{
     padding-top: 3%;
     font-size: 16px;
-    padding-bottom: 13%;
+}
+
+.form-inner > .reg >a:hover{
+    text-decoration: none;
+    color: rgb(255, 83, 30);
+    font-weight: bold;
+}
+.form-inner > .psw{
+    padding-top: 1%;
+    font-size: 16px;
+    margin-bottom: 13%;
 }
 
 .form-inner > .psw >a:hover{
     text-decoration: none;
     color: dodgerblue;
     font-weight: bold;
+}
+
+#reg > form > .form-inner > button{
+    margin-top: 5%;
+    margin-bottom: 18%;
 }
 
 .box{
