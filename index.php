@@ -15,7 +15,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.8, maximum-scale=1.00, user-scalable=no shrink-to-fit=no">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-        <title>Rhythm</title>
+        <title>Rhythm - Home</title>
 
         <!--Google Font-->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Roboto:700|Poppins|Poppins:300|Raleway:500|Comfortaa|Satisfy|Quicksand|Poiret One">
