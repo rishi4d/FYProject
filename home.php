@@ -1,14 +1,10 @@
 <?php
     include "server.php";
-    include 'db.php';
 ?>
 
 <!DOCTYPE html>
-
 <html lang="en">
-
     <head>
-
         <meta charset="utf-8">
         <meta name="description" content="Final Year Project ~ Online Music Streaming Platform">
         <meta name="author" content="Rishi Ghosh">
@@ -34,7 +30,6 @@
         <link rel="stylesheet" href="css/home.css">
 
         <link rel="icon" type="image/png" href="res/icons/circle-cropped2.png">
-
     </head>
 
     <body>
@@ -135,13 +130,13 @@
 
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <?php carousel(13);?>
+                    <?php carousel(10);?>
                 </div>
                 <div class="carousel-item">
-                    <?php carousel(14);?>
+                    <?php carousel(11);?>
                 </div>                
                 <div class="carousel-item">
-                    <?php carousel(21);?>
+                    <?php carousel(4);?>
                 </div>
             </div>
 

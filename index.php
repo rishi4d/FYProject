@@ -28,18 +28,18 @@
 
     </head>
 
-    <body style="background-color: black;">
+    <body style="background-color: black">
         <div class="container-fluid">
             <h1>Select to continue ..</h1>
             <div class="row mx-auto">
                 <div class="col-xl-6">
-                    <a href="index.php"><div class="card">
+                    <a href="home.php?ncs"><div class="card">
                         <img src="resources/img/ncs.webp">
                     </div>
                     <h2>NoCopyrightSounds</h2></a>
                 </div>
                 <div class="col-xl-6">
-                    <a href="index.php"><div class="card">
+                    <a href="home.php"><div class="card">
                         <img src="resources/img/mic.webp">
                     </div>
                     <h2>Copyrighted Music</h2></a>
@@ -47,5 +47,9 @@
             </div>
         </div>
     </body>
+
+    <?php
+
+    ?>
 
 </html>
