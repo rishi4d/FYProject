@@ -319,8 +319,8 @@ nav{
     left: 32%;
     position: fixed;
     background-color: rgb(30, 33, 36, 0.7);
-    width: 36%;
-    height: 14%;
+    width: 38%;
+    height: 15%;
     bottom: 1.2%;
     border-radius: 30px;
     backdrop-filter: blur(5px);
@@ -335,18 +335,18 @@ nav{
 
 #albumart{
     position: relative;
-    top: 9%;
-    height: 82%;
+    top: 10%;
+    height: 80%;
     border-radius: 25px;
-    width: 20%;
+    width: 22%;
 }
 
 #title{
     font-size: larger;
     color : rgb(160, 160, 160);
     position: absolute;
-    top: 20%;
-    left: 25%;
+    top: 25%;
+    left: 28%;
     width: 15%;
 }
 
@@ -354,8 +354,8 @@ nav{
     font-size: larger;
     color : rgb(150, 150, 150);
     position: absolute;
-    top: 45%;
-    left: 25%;
+    top: 50%;
+    left: 28%;
     width: 15%;
 }
 
@@ -425,6 +425,10 @@ nav{
     padding: 12px;
 }
 
+.child > .row > .col-sm-4 > a:hover{
+    text-decoration: none;
+}
+
 #sectionspan{
     font-size: 14px;
     float: right;
@@ -448,6 +452,7 @@ nav{
     border-radius: 15px;
     overflow: hidden;
     background-color: black;
+    color: rgb(160, 160, 160);
 }
 
 #secimg{ 
@@ -460,7 +465,12 @@ nav{
 .card-body{
     height: auto;
     padding: 5px;
-    font-size: 12px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.card:hover{
+    color: #d70000;
 }
 
 .card-body > p{
@@ -482,7 +492,8 @@ hr{
 }
 
 .footer > p{
-    font-size: 15px;
+    font-size: 18px;
+    font-weight: bolder;
     color: rgb(145, 145, 145);
     padding-top: 5px;
 }
@@ -494,7 +505,7 @@ hr{
 }
 
 #footerending{
-    font-size: 18px;
+    font-size: 20px;
     padding-top: 20px;
     padding-bottom: 8%;
 }

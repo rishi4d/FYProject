@@ -20,5 +20,4 @@
         $_SESSION['log'] = true;
 
         header('Location: index.php');
-
-}
+    }

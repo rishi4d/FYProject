@@ -29,7 +29,7 @@
 
         <link rel="stylesheet" href="css/home.css">
 
-        <link rel="icon" type="image/png" href="res/icons/circle-cropped2.png">
+        <link rel="icon" type="image/png" href="resources/icons/circle.webp">
     </head>
 
     <body>
@@ -114,9 +114,9 @@
         
         <div id="player" class="container-fluid">
             <div id="player-inner" class="container-fluid">
-                <img id="albumart" src="res/img/127369.jpg" alt="">
-                <p id="title">titletitletitletitle</p>
-                <p id="artist">artistartist</p>
+                <img id="albumart" src="resources/storage/art/singles/1.jpg" alt="">
+                <p id="title">NCS - Title</p>
+                <p id="artist">NCS - Artist</p>
                 <div id="player-controls">
                     <button><i class="fas fa-backward"></i></button>
                     <button><i class="fas fa-play"></i></button>
@@ -130,7 +130,7 @@
 
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <?php carousel(10);?>
+                    <?php carousel(3);?>
                 </div>
                 <div class="carousel-item">
                     <?php carousel(11);?>
@@ -157,34 +157,22 @@
                     <h4>Trending<span id="sectionspan"><a href="#">View All</a></span></h4>
                     <div class="row">
                         <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <div class="card">
                                 <?php trending(1);?>
-                            </div>
                         </div>
                         <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <div class="card">
                                 <?php trending(2);?>
-                            </div>
                         </div>
                         <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <div class="card">
                                 <?php trending(3);?>
-                            </div>
                         </div>
                         <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <div class="card">
                                 <?php trending(4);?>
-                            </div>
                         </div>
                         <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <div class="card">
                                 <?php trending(5);?>
-                            </div>
                         </div>
                         <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <div class="card">
                                 <?php trending(6);?>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -193,34 +181,22 @@
                     <h4>Top Charts<span id="sectionspan"><a href="">View All</a></span></h4>
                     <div class="row">
                         <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <div class="card">
-                                <?php tops(1);?>
-                            </div>
+                            <?php tops(1);?>
                         </div>
                         <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <div class="card">
-                                <?php tops(2);?>
-                            </div>
+                            <?php tops(2);?>
                         </div>
                         <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <div class="card">
-                                <?php tops(3);?>
-                            </div>
+                            <?php tops(3);?>
                         </div>
                         <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <div class="card">
-                                <?php tops(4);?>
-                            </div>
+                            <?php tops(4);?>
                         </div>
                         <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <div class="card">
-                                <?php tops(5);?>
-                            </div>
+                            <?php tops(5);?>
                         </div>
                         <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <div class="card">
-                                <?php tops(6);?>
-                            </div>
+                            <?php tops(6);?>
                         </div>
                     </div>
                 </div>
@@ -229,64 +205,40 @@
                     <h4>New Releases<span id="sectionspan"><a href="">View All</a></span></h4>
                     <div class="row">
                         <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <div class="card">
-                                <?php releases(1);?>
-                            </div>
+                            <?php releases(1);?>
                         </div>
                         <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <div class="card">
-                                <?php releases(2);?>
-                            </div>
+                            <?php releases(2);?>
                         </div>
                         <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <div class="card">
-                                <?php releases(3);?>
-                            </div>
+                            <?php releases(3);?>
                         </div>
                         <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <div class="card">
-                                <?php releases(4);?>
-                            </div>
+                            <?php releases(4);?>
                         </div>
                         <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <div class="card">
-                                <?php releases(5);?>
-                            </div>
+                            <?php releases(5);?>
                         </div>
                         <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <div class="card">
-                                <?php releases(6);?>
-                            </div>
+                            <?php releases(6);?>
                         </div>
                         <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <div class="card">
-                                <?php releases(7);?>
-                            </div>
+                            <?php releases(7);?>
                         </div>
                         <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <div class="card">
-                                <?php releases(8);?>
-                            </div>
+                            <?php releases(8);?>
                         </div>
                         <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <div class="card">
-                                <?php releases(9);?>
-                            </div>
+                            <?php releases(9);?>
                         </div>
                         <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <div class="card">
-                                <?php releases(10);?>
-                            </div>
+                            <?php releases(10);?>
                         </div>
                         <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <div class="card">
-                                <?php releases(11);?>
-                            </div>
+                            <?php releases(11);?>
                         </div>
                         <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <div class="card">
-                                <?php releases(12);?>
-                            </div>
+                            <?php releases(12);?>
                         </div>
                     </div>
                 </div>   
@@ -295,34 +247,22 @@
                     <h4>Featured Artists<span id="sectionspan"><a href="">View All</a></span></h4>
                     <div class="row">
                         <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <div class="card">
-                                <?php artists(1);?>
-                            </div>
+                            <?php artists(1);?>
                         </div>
                         <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <div class="card">
-                                <?php artists(2);?>
-                            </div>
+                            <?php artists(2);?>
                         </div>
                         <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <div class="card">
-                                <?php artists(3);?>
-                            </div>
+                            <?php artists(3);?>
                         </div>
                         <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <div class="card">
-                                <?php artists(4);?>
-                            </div>
+                            <?php artists(4);?>
                         </div>
                         <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <div class="card">
-                                <?php artists(5);?>
-                            </div>
+                            <?php artists(5);?>
                         </div>
                         <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <div class="card">
-                                <?php artists(6);?>
-                            </div>
+                            <?php artists(6);?>
                         </div>
                     </div>
                 </div>  
@@ -335,8 +275,8 @@
         <!-- FOOTER -->
         <div class="container-fluid footer">
             <p id="brandfooter"><i class="fab fa-deezer" style="color: rgb(230, 0, 0); font-size: 2.3em;"></i><b>&emsp;Rhythm</b><span>&#8482</span></p>
-            <p><b>Rhythm</b> is single-stop solution for all your musical needs. Browse through hundreds of songs, movies, albums, artists, genres, podcasts and enjoy your favourite music online for free &ensp;<b>>></b></p>
-            <p id="footerending"><b>Rhythm</b>, Copyright&#169 2020<span style="float: right;"><b>Made in India</b></span></p>
+            <p><b>Rhythm</b> is single-stop solution for all your musical needs. Browse through hundreds of songs, movies, albums, artists, genres, podcasts and enjoy your favourite music online for free&ensp;<b>>></b></p>
+            <p id="footerending"><b>Rhythm</b>, Copyright&#169 2021<span style="float: right;"><b>Made in India</b></span></p>
         </div>
 
         <script src="app.js"></script>
