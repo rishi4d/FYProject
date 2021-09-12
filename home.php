@@ -130,13 +130,13 @@
 
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <?php carousel(3);?>
+                    <?php controller('carousel');?>
                 </div>
                 <div class="carousel-item">
-                    <?php carousel(11);?>
-                </div>                
+                    <?php controller('carousel');?>
+                </div>
                 <div class="carousel-item">
-                    <?php carousel(4);?>
+                    <?php controller('carousel');?>
                 </div>
             </div>
 
@@ -157,22 +157,22 @@
                     <h4>Trending<span id="sectionspan"><a href="#">View All</a></span></h4>
                     <div class="row">
                         <div class="col-xs-6 col-sm-4 col-lg-2">
-                                <?php trending(1);?>
+                            <?php controller('trending');?>
                         </div>
                         <div class="col-xs-6 col-sm-4 col-lg-2">
-                                <?php trending(2);?>
+                            <?php controller('trending');?>
                         </div>
                         <div class="col-xs-6 col-sm-4 col-lg-2">
-                                <?php trending(3);?>
+                            <?php controller('trending');?>
                         </div>
                         <div class="col-xs-6 col-sm-4 col-lg-2">
-                                <?php trending(4);?>
+                            <?php controller('trending');?>
                         </div>
                         <div class="col-xs-6 col-sm-4 col-lg-2">
-                                <?php trending(5);?>
+                            <?php controller('trending');?>
                         </div>
                         <div class="col-xs-6 col-sm-4 col-lg-2">
-                                <?php trending(6);?>
+                            <?php controller('trending');?>
                         </div>
                     </div>
                 </div>
@@ -181,22 +181,22 @@
                     <h4>Top Charts<span id="sectionspan"><a href="">View All</a></span></h4>
                     <div class="row">
                         <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <?php tops(1);?>
+                            <?php controller('tops');?>
                         </div>
                         <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <?php tops(2);?>
+                            <?php controller('tops');?>
                         </div>
                         <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <?php tops(3);?>
+                            <?php controller('tops');?>
                         </div>
                         <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <?php tops(4);?>
+                            <?php controller('tops');?>
                         </div>
                         <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <?php tops(5);?>
+                            <?php controller('tops');?>
                         </div>
                         <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <?php tops(6);?>
+                            <?php controller('tops');?>
                         </div>
                     </div>
                 </div>
@@ -205,40 +205,40 @@
                     <h4>New Releases<span id="sectionspan"><a href="">View All</a></span></h4>
                     <div class="row">
                         <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <?php releases(1);?>
+                            <?php controller('releases');?>
                         </div>
                         <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <?php releases(2);?>
+                            <?php controller('releases');?>
                         </div>
                         <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <?php releases(3);?>
+                            <?php controller('releases');?>
                         </div>
                         <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <?php releases(4);?>
+                            <?php controller('releases');?>
                         </div>
                         <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <?php releases(5);?>
+                            <?php controller('releases');?>
                         </div>
                         <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <?php releases(6);?>
+                            <?php controller('releases');?>
                         </div>
                         <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <?php releases(7);?>
+                            <?php controller('releases');?>
                         </div>
                         <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <?php releases(8);?>
+                            <?php controller('releases');?>
                         </div>
                         <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <?php releases(9);?>
+                            <?php controller('releases');?>
                         </div>
                         <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <?php releases(10);?>
+                            <?php controller('releases');?>
                         </div>
                         <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <?php releases(11);?>
+                            <?php controller('releases');?>
                         </div>
                         <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <?php releases(12);?>
+                            <?php controller('releases');?>
                         </div>
                     </div>
                 </div>   
@@ -247,22 +247,22 @@
                     <h4>Featured Artists<span id="sectionspan"><a href="">View All</a></span></h4>
                     <div class="row">
                         <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <?php artists(1);?>
+                            <?php controller('artists');?>
                         </div>
                         <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <?php artists(2);?>
+                            <?php controller('artists');?>
                         </div>
                         <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <?php artists(3);?>
+                            <?php controller('artists');?>
                         </div>
                         <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <?php artists(4);?>
+                            <?php controller('artists');?>
                         </div>
                         <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <?php artists(5);?>
+                            <?php controller('artists');?>
                         </div>
                         <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <?php artists(6);?>
+                            <?php controller('artists');?>
                         </div>
                     </div>
                 </div>  

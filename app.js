@@ -7,8 +7,6 @@ window.onclick = function(event){
         sign.style.display = 'none';
 }
 
-
-
 //Player Stuff
 let playing = false;
 document.querySelectorAll(".music_link").forEach(function(link){

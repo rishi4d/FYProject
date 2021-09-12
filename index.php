@@ -48,8 +48,4 @@
         </div>
     </body>
 
-    <?php
-
-    ?>
-
 </html>
