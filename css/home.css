@@ -463,9 +463,8 @@ nav{
 }
 
 .card-body{
-    height: auto;
-    padding: 5px;
-    font-size: 18px;
+    padding: 5% 10%;
+    font-size: 16px;
     font-weight: bolder;
 }
 
@@ -473,8 +472,10 @@ nav{
     color: #d70000;
 }
 
-.card-body > p{
-    transform: translate(10%, 50%);
+.card-body > p {
+    padding: 2px;
+    margin: 0;
+    padding-bottom: 5px;
 }
 
 hr{

@@ -11,7 +11,7 @@ window.onclick = function(event){
 let playing = false;
 document.querySelectorAll(".music_link").forEach(function(link){
     link.addEventListener("click", function (){
-        let m = link.querySelector('audio');
+        let m = link.querySelector('source');
         console.log(link);
         m.setAttribute('id','musicFile');
         play();

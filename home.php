@@ -130,14 +130,12 @@
 
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <?php controller('carousel');?>
+                    <?php echo controller('carousel', 0);?>
                 </div>
-                <div class="carousel-item">
-                    <?php controller('carousel');?>
-                </div>
-                <div class="carousel-item">
-                    <?php controller('carousel');?>
-                </div>
+                <?php
+                for($i=1; $i<3; $i++)
+                    echo "<div class=\"carousel-item\">".controller('carousel', $i)."</div>";
+                ?>
             </div>
 
             <a class="carousel-control-prev" href="#slides" data-slide="prev">
@@ -156,114 +154,40 @@
                 <div id="trends" class="col-12 col-sm-12 child">
                     <h4>Trending<span id="sectionspan"><a href="#">View All</a></span></h4>
                     <div class="row">
-                        <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <?php controller('trending');?>
-                        </div>
-                        <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <?php controller('trending');?>
-                        </div>
-                        <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <?php controller('trending');?>
-                        </div>
-                        <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <?php controller('trending');?>
-                        </div>
-                        <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <?php controller('trending');?>
-                        </div>
-                        <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <?php controller('trending');?>
-                        </div>
+                        <?php
+                        for ($i=0; $i<6; $i++)
+                            echo "<div class=\"col-xs-6 col-sm-4 col-lg-2\">".controller('trending', $i) ."</div>"
+                        ?>
                     </div>
                 </div>
 
                 <div id="charts" class="col-xs-6 col-12 col-sm-12 child">
                     <h4>Top Charts<span id="sectionspan"><a href="">View All</a></span></h4>
                     <div class="row">
-                        <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <?php controller('tops');?>
-                        </div>
-                        <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <?php controller('tops');?>
-                        </div>
-                        <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <?php controller('tops');?>
-                        </div>
-                        <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <?php controller('tops');?>
-                        </div>
-                        <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <?php controller('tops');?>
-                        </div>
-                        <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <?php controller('tops');?>
-                        </div>
+                        <?php
+                        for($i=0; $i<6; $i++)
+                            echo "<div class=\"col-xs-6 col-sm-4 col-lg-2\">".controller('tops', $i)."</div>";
+                        ?>
                     </div>
                 </div>
     
                 <div id="releases" class="col-12 col-sm-12 child">
                     <h4>New Releases<span id="sectionspan"><a href="">View All</a></span></h4>
                     <div class="row">
-                        <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <?php controller('releases');?>
-                        </div>
-                        <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <?php controller('releases');?>
-                        </div>
-                        <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <?php controller('releases');?>
-                        </div>
-                        <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <?php controller('releases');?>
-                        </div>
-                        <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <?php controller('releases');?>
-                        </div>
-                        <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <?php controller('releases');?>
-                        </div>
-                        <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <?php controller('releases');?>
-                        </div>
-                        <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <?php controller('releases');?>
-                        </div>
-                        <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <?php controller('releases');?>
-                        </div>
-                        <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <?php controller('releases');?>
-                        </div>
-                        <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <?php controller('releases');?>
-                        </div>
-                        <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <?php controller('releases');?>
-                        </div>
+                        <?php
+                        for($i=0; $i<12; $i++)
+                            echo "<div class=\"col-xs-6 col-sm-4 col-lg-2\">".controller('releases', $i)."</div>";
+                        ?>
                     </div>
                 </div>   
     
                 <div id="artists" class="col-12 col-sm-12 child">
                     <h4>Featured Artists<span id="sectionspan"><a href="">View All</a></span></h4>
                     <div class="row">
-                        <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <?php controller('artists');?>
-                        </div>
-                        <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <?php controller('artists');?>
-                        </div>
-                        <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <?php controller('artists');?>
-                        </div>
-                        <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <?php controller('artists');?>
-                        </div>
-                        <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <?php controller('artists');?>
-                        </div>
-                        <div class="col-xs-6 col-sm-4 col-lg-2">
-                            <?php controller('artists');?>
-                        </div>
+                        <?php
+                        for($i=0; $i<6; $i++)
+                            echo "<div class=\"col-xs-6 col-sm-4 col-lg-2\">".controller('artists', $i)."</div>";
+                        ?>
                     </div>
                 </div>  
             </div>      
