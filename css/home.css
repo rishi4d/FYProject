@@ -319,12 +319,14 @@ nav{
     left: 32%;
     position: fixed;
     background-color: rgb(30, 33, 36, 0.7);
-    width: 38%;
+    width: 40%;
     height: 15%;
     bottom: 1.2%;
     border-radius: 30px;
     backdrop-filter: blur(5px);
     padding-left: 0;
+    font-family: 'Barlow Condensed';
+    font-size: 22px;
 }
 
 #player-inner{
@@ -342,29 +344,54 @@ nav{
 }
 
 #title{
-    font-size: larger;
     color : rgb(160, 160, 160);
     position: absolute;
     top: 25%;
-    left: 28%;
-    width: 15%;
+    height: 25%;
+    width: 35%;
+    left: 27%;
+    overflow: hidden;
+}
+
+#title span {
+    position: absolute;
+    white-space: nowrap;
+    transform: translateX(0);
+    transition: 2.5s ease-in-out;
+}
+
+#title:hover span {
+    transform: translateX(calc(200px - 100%));
 }
 
 #artist{
-    font-size: larger;
     color : rgb(150, 150, 150);
     position: absolute;
-    top: 50%;
-    left: 28%;
-    width: 15%;
+    top: 52%;
+    height: 25%;
+    width: 35%;
+    left: 27%;
+    overflow: hidden;
 }
+
+#artist span {
+    position: absolute;
+    white-space: nowrap;
+    transform: translateX(0);
+    transition: 1.5s ease-in-out;
+}
+
+#artist:hover span {
+    transform: translateX(calc(200px - 100%));
+}
+
 
 #player-controls{
     position: absolute;
     transform: translate(-50%, -50%);
     width: max-content;
     top: 50%;
-    left: 75%;
+    left: 80%;
 }
 #player-controls > button{
     padding-left: 20px;

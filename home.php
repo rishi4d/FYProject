@@ -16,6 +16,10 @@
         <!--Google Font-->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Roboto:700|Poppins|Poppins:300|Raleway:500|Comfortaa|Satisfy|Quicksand|Poiret One">
 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&display=swap" rel="stylesheet">
+
         <!-- Bootstrap CSS only -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
@@ -115,8 +119,8 @@
         <div id="player" class="container-fluid">
             <div id="player-inner" class="container-fluid">
                 <img id="albumart" src="resources/storage/art/singles/1.jpg" alt="">
-                <p id="title">NCS - Title</p>
-                <p id="artist">NCS - Artist</p>
+                <p id="title"><span>Just fuck this super irritating thing</span></p>
+                <p id="artist"><span>Unusual Long Name</span></p>
                 <div id="player-controls">
                     <button><i class="fas fa-backward"></i></button>
                     <button><i class="fas fa-play"></i></button>
@@ -179,8 +183,8 @@
                             echo "<div class=\"col-xs-6 col-sm-4 col-lg-2\">".controller('releases', $i)."</div>";
                         ?>
                     </div>
-                </div>   
-    
+                </div>
+
                 <div id="artists" class="col-12 col-sm-12 child">
                     <h4>Featured Artists<span id="sectionspan"><a href="">View All</a></span></h4>
                     <div class="row">
