@@ -361,7 +361,7 @@ nav{
 }
 
 #title:hover span {
-    transform: translateX(calc(200px - 100%));
+    transform: translateX(calc(13vw - 100%));
 }
 
 #artist{
@@ -382,7 +382,7 @@ nav{
 }
 
 #artist:hover span {
-    transform: translateX(calc(200px - 100%));
+    transform: translateX(calc(13vw - 100%));
 }
 
 

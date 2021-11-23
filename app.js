@@ -7,7 +7,7 @@ window.onclick = function(event){
         sign.style.display = 'none';
 }
 
-//Player Stuff
+//Player
 let playing = false;
 document.querySelectorAll(".music_link").forEach(function(link){
     link.addEventListener("click", function (){
@@ -16,8 +16,10 @@ document.querySelectorAll(".music_link").forEach(function(link){
         console.log(link);
         m.setAttribute('id','musicFile');
         */
-console.log('working');
-play();
+        console.log(link);
+
+        console.log('working');
+        play();
     });
 });
 
@@ -27,7 +29,8 @@ function play(){
 
     console.log('Playing');
     let musicFile = document.getElementById('musicFile');
-    musicFile.play();
+   // musicFile.play();
+    document.getElementById('player_state').innerHTML = '<i class="fas fa-pause"></i>';
     playing = true;
 }
 

@@ -70,7 +70,7 @@ function releases($num){
     $rows = mysqli_fetch_all($obj, MYSQLI_ASSOC);
     $releases_src[] = "{$rows[$num]['file_path']}{$rows[$num]['file_name']}{$file_ext}";
 
-    return "<a class='music_link' href=\"javascript:void(0)\"><div class=\"card\"><img id=\"secimg\" src=\"".$rows[$num]['file_art_path']."\"><div class=\"card-body\"><p>".$rows[$num]['track_title']."</p></div><source src=\"{$rows[$num]['file_path']}{$rows[$num]['file_name']}{$file_ext}\" type='audio/mpeg'></div></a>";
+    return "<a class='music_link' href=\"javascript:void(0)\"><div class=\"card\"><img id=\"secimg\" src=\"".$rows[$num]['file_art_path']."\"><div class=\"card-body\"><p>".$rows[$num]['track_title']."</p></div></div></a>";
 }
 
 function artists($num){

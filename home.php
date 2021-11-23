@@ -119,11 +119,11 @@
         <div id="player" class="container-fluid">
             <div id="player-inner" class="container-fluid">
                 <img id="albumart" src="resources/storage/art/singles/1.jpg" alt="">
-                <p id="title"><span>Just fuck this super irritating thing</span></p>
-                <p id="artist"><span>Unusual Long Name</span></p>
+                <p id="title"><span>Bandeya</span></p>
+                <p id="artist"><span>Arijit Singh</span></p>
                 <div id="player-controls">
                     <button><i class="fas fa-backward"></i></button>
-                    <button><i class="fas fa-play"></i></button>
+                    <button id="player_state"><i class="fas fa-play"></i></button>
                     <button><i class="fas fa-forward"></i></button>
                 </div>
             </div>
